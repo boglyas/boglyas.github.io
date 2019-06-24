@@ -21,7 +21,7 @@ html {
 
 body {
   background-color: white;
-  font-family: "Open Sans";
+  font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   color: #3d3d3d; }
   body.state-fixed-body {
@@ -30,7 +30,7 @@ body {
 p {
   margin-bottom: 1em;
   margin-top: 1em;
-  font-family: "Open Sans", serif;
+  font-family: 'Open Sans', sans-serif;
   line-height: 1.4; }
 
 [tabindex="-1"]:focus {
