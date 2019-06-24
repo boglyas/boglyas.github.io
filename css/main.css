@@ -21,7 +21,7 @@ html {
 
 body {
   background-color: white;
-  font-family: "Lato", Helvetica, sans-serif;
+  font-family: Open Sans;
   -webkit-font-smoothing: antialiased;
   color: #3d3d3d; }
   body.state-fixed-body {
