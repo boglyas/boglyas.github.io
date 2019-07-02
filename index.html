@@ -27,15 +27,15 @@
             --></a></div>
         <div class="nav-02__links js-menu">
           <ul class="nav-02__list">
-            <li class="nav-02__item"><a class="button   button--black-outline  button--empty " href="javascript:void(0);" target="_blank"><span>Információ</span></a>
+            <li class="nav-02__item"><a class="button   button--black-outline  button--empty " href="#info-01" target="_self"><span>Információ</span></a>
             </li>
             <li class="nav-02__item"><a class="button   button--black-outline  button--empty " href="#pricing-01" target="_self"><span>Árazás</span></a>
             </li>
-            <li class="nav-02__item"><a class="button   button--black-outline  button--empty " href="javascript:void(0);" target="_blank"><span>Helyszín</span></a>
+            <li class="nav-02__item"><a class="button   button--black-outline  button--empty " href="#location-01" target="_self"><span>Helyszín</span></a>
             </li>
             <li class="nav-02__item"><a class="button   button--black-outline  button--empty " href="javascript:void(0);" target="_blank"><span>Szerződés letöltése</span></a>
             </li>
-            <li class="nav-02__item"><a class="button   button--black-outline " href="javascript:void(0);" target="_blank"><span>Érdeklődés</span></a>
+            <li class="nav-02__item"><a class="button   button--black-outline " href="#contact-01" target="_self"><span>Érdeklődés</span></a>
             </li>
           </ul>
           <div class="nav-02__burger">
@@ -65,7 +65,7 @@
 </header>
 <!-- ===== END OF: Header 23-->
 <!-- START OF: Photos 03 =====-->
-<div class="photos-03">
+<div id="info-01" class="photos-03">
   <div class="container container--mid">
     <div class="photos-03__title_box">
       <h1 class="heading">Miért használjunk konténert tárolásra?</h1>
@@ -147,8 +147,8 @@ Nyílászáró: Kétszárnyas, vízmentes és légmentes záródás</p>
                 </div>
               </div>
               <div class="pricing-01__card_info text">6 méteres M konténer.<br> ~14 nm, 33 köbméter.<br> Ideális kisebb lakások közötti költözéshez, biciklik, hobbieszközök tárolására, stb.<br></div>
-              <div class="pricing-01__card_button">
-                <button class="button   button--black-outline " type="submit"><span class="button__text">Érdekel!</span>
+              <div class="pricing-01__card_button" href="#contact-01" target="_self">
+                <button class="button   button--black-outline "   ><span class="button__text" >Érdekel!</span>
                 </button>
               </div>
             </div>
@@ -169,7 +169,7 @@ Nyílászáró: Kétszárnyas, vízmentes és légmentes záródás</p>
               </div>
               <div class="pricing-01__card_info text">12 méteres XL konténer.<br> ~28 nm, 66 köbméter.<br> Ideális kisebb vállalkozások tárolási igényeire, nagyobb ingatlanok közötti költözésnél átmeneti bútortárolásra.</div>
               <div class="pricing-01__card_button">
-                <button class="button   button--alt-accent-bg " type="submit" ><span class="button__text">Érdekel!</span>
+                <button class="button   button--alt-accent-bg "  href="#contact-01" target="_self"><span class="button__text">Érdekel!</span>
                 </button>
               </div>
             </div>
@@ -180,7 +180,7 @@ Nyílászáró: Kétszárnyas, vízmentes és légmentes záródás</p>
   </div>
 </div>
 <div>
-  <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=t%C3%B3ni%20csap%C3%A1s&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.enable-javascript.net">enable-javascript.net</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div>
+  <div id="location-01" class="mapouter"><div class="gmap_canvas"><iframe width="100%" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=t%C3%B3ni%20csap%C3%A1s&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.enable-javascript.net">enable-javascript.net</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:100%;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:100%;}</style></div>
 </div>
 <!-- ===== END OF: Pricing 01
  START OF: Photos 02 =====
@@ -249,11 +249,26 @@ Nyílászáró: Kétszárnyas, vízmentes és légmentes záródás</p>
 </div>
 <!-- ===== END OF: FAQ 02-->
 <!-- START OF: Footer 01 =====-->
-<div class="footer-01">
+<div id="contact-01" class="container container--large header-23__container">
+    <div class="header-23__left">
+      <div class="header-23__left_content">
+        <h1 class="heading heading header-23__heading">kamanbalazs@gmail.com<br>+3620 320 7881</h1>
+        <p class="header-23__text">Keressen bátran akár este vagy hétvégén is.</p>
+        <div class="header-23__cta_box">
+          
+        </div>
+      </div>
+    </div>
+    <div class="header-23__right"><img class="header-23__img" src="https://images.unsplash.com/photo-1512499639435-ca992b59f3c8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2766&q=80"/></div>
+  </div>
+
+
+<div id="footer-01" class="footer-01">
   <div class="container">
     <div class="footer-01__wrapper"><a class="footer-01__logo_link" href="javascript:void(0);"><img class="footer-01__logo" src="img/other/logo.svg"/></a>
       <ul class="footer-01__list">
-        <li class="footer-01__item"><a class="footer-01__link" href="javascript:void(0);" target="_blank">kaman61@gmail.com</a></li>
+        <li class="footer-01__item"><a class="footer-01__link" href="javascript:void(0);" target="_blank">kamanbalazs@gmail.com</a></li>
+        <li class="footer-01__item"><a class="footer-01__link" href="javascript:void(0);" target="_blank">+36203207881</a></li>
       </ul>
       <!-- <ul class="footer-01__list">
         <li class="footer-01__item"><a class="footer-01__link footer-01__link--black" href="javascript:void(0);" target="_blank">Sing Up</a></li>
@@ -310,7 +325,7 @@ Nyílászáró: Kétszárnyas, vízmentes és légmentes záródás</p>
     <div class="via-unicorn-platform">
       <!-- Thanks for being part of the Unicorn Platform community!-->
       <!-- Our small team will <em>truly</em> appreciate if you keep this tiny link on your website. It will dramatically help us spearing the magic across the world.-->
-      <a class="via-unicorn-platform__link" href="https://unicornplatform.com/" target="_blank" title="This page was generated via Unicorn Platform">Page via <b>Unicorn Platform</b></a>
+      <a class="via-unicorn-platform__link" href="https://unicornplatform.com/" target="_blank" title="This page was generated via Unicorn Platform">Page via <b>by Kámán Balázs</b></a>
     </div>
   </body>
 </html>
