@@ -2514,11 +2514,11 @@ button.button {
   align-items: center;
   flex-wrap: wrap;
   padding-top: 120px;
-  padding-bottom: 120px; }
+  padding-bottom: 50px; }
   @media (max-width: 1400px) {
     .header-07__container, .header-23__container, .header-24__container, .header-25__container, .header-58__container {
       padding-top: 80px;
-      padding-bottom: 120px; } }
+      padding-bottom: 50px; } }
   @media (max-width: 1020px) {
     .header-07__container, .header-23__container, .header-24__container, .header-25__container, .header-58__container {
       display: block;
