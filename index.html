@@ -327,9 +327,43 @@ Nyílászáró: Kétszárnyas, vízmentes és légmentes záródás</p>
         <h1 class="heading heading header-23__heading"><a href="mailto:info@erdraktar.hu">info@erdraktar.hu</a>
           <br><a href="tel:+36203207881">+36203207881</a>
           <br><a href="tel:+36704203473">+36704203473</a></h1>
-        <p class="header-23__text">Érdeklődjön emailen vagy telefonon</p>
+        <p class="header-23__text">Érdeklődjön emailben, telefonon, vagy az alábbi felületen.</p>
         <div class="header-23__cta_box">
-          
+         <form id="fs-frm" name="survey-form" accept-charset="utf-8" action="https://formspree.io/info@erdraktar.hu" method="post">
+  <fieldset id="fs-frm-inputs">
+    <label for="full-name">Neve</label>
+    <input type="text" name="name" id="full-name" placeholder="Vezetéknév és keresztnév" required="">
+    <label for="email-address">Email címe</label>
+    <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+    <fieldset id="fs-frm-selects">
+      <label for="timely">Milyen méretű konténerre lenne szüksége?</label>
+      <select name="timely" id="timely" required="">
+        <option value="Choose" selected="" disabled="">Válasszon!</option>
+        <option value="1">M méret, 6x2,45x2,45; 14 nm</option>
+        <option value="3">XL méret, 12x2,45x2,45; 28 nm</option>
+        <option value="5">M méretnél kisebb érdekelne</option>
+        <option value="7">Több konténert is szeretnék bérelni</option>
+        <option value="5">Csak érdeklődök</option>
+      </select>
+      <label for="timely">Milyen időtávban gondolkodik?</label>
+      <select name="quality" id="quality" required="">
+        <option value="Choose" selected="" disabled="">Válasszon!</option>
+        <option value="1">1-6 hónapra</option>
+        <option value="3">6-12 hónapra</option>
+        <option value="5">12+ hónapra</option>
+        <option value="5">Csak érdeklődök</option>
+      </select>
+    </fieldset>
+    <label for="message">További információ:</label>
+    <textarea rows="3" name="message" id="message" placeholder="Szívesen állunk rendelkezésére!" required=""></textarea>
+    <input type="hidden" name="_subject" id="email-subject" value="Weboldal form">
+  </fieldset>
+  <input type="submit" value="Üzenet elküldése">
+</form>
+
+<style>/* reset */
+
+</style> 
         </div>
       </div>
     </div>
