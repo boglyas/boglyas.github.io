@@ -110,7 +110,7 @@ window['_fs_namespace'] = 'FS';
   <div class="container container--large header-23__container">
     <div class="header-23__left">
       <div class="header-23__left_content">
-        <h1 class="heading heading--accent header-23__heading">Biztonságos.<br>24 / 7 elérhető.<br>17.000 Ft/hó-tól.</h1>
+        <h1 class="heading heading--accent header-23__heading">Biztonságos.<br>0-24 elérhető.<br>17.000 Ft/hó-tól.</h1>
         <p class="header-23__text">14 és 28 nm alapterületű, 33 és 66 m3 térfogatú hajózási konténerek kiadók Érden, a 6-os és 7-es főúttól és az M6 autópályától 750 méterre.</p>
         <p class="header-23__text"><br><a href="mailto:info@erdraktar.hu">info@erdraktar.hu</a><br>
 <a href="tel:+36203207881">+36203207881</a><br>
@@ -331,10 +331,12 @@ Nyílászáró: Kétszárnyas, vízmentes és légmentes záródás</p>
         <div>
           <form id="fs-frm" name="survey-form" accept-charset="utf-8" action="https://formspree.io/info@erdraktar.hu" method="post">
           <fieldset id="fs-frm-inputs">
-            <label for="full-name">Neve</label>
+            <label for="full-name">Neve:</label>
             <input type="text" name="name" id="full-name" placeholder="Vezetéknév és keresztnév" required="">
-            <label for="email-address">Email címe</label>
-            <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+            <label for="email-address">E-mail címe:</label>
+            <input type="email" name="_replyto" id="email-address" placeholder="email@domain.hu" required="">
+            <label for="phone">Telefonszáma:</label>
+            <input type="text" name="phone" id="phone" placeholder="+36 20 123 4567" required="">
             <fieldset id="fs-frm-selects">
               <label for="meret">Milyen méretű konténerre lenne szüksége?</label>
               <select name="meret" id="timely" required="">
@@ -346,13 +348,7 @@ Nyílászáró: Kétszárnyas, vízmentes és légmentes záródás</p>
                 <option value="?">Csak érdeklődök</option>
               </select>
               <label for="tav">Milyen időtávban gondolkodik?</label>
-              <select name="tav" id="quality" required="">
-                <option value="Choose" selected="" disabled="">Válasszon!</option>
-                <option value="1">1-6 hónapra</option>
-                <option value="6">6-12 hónapra</option>
-                <option value="12">12+ hónapra</option>
-                <option value="?">Csak érdeklődök</option>
-              </select>
+              <input type="text" name="tav" id="tav" placeholder="pl 6 hónap" required="">
             </fieldset>
             <label for="message">További információ:</label>
             <textarea rows="3" name="message" id="message" placeholder="Szívesen állunk rendelkezésére!" required=""></textarea>
