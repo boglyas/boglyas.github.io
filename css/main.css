@@ -3518,7 +3518,8 @@ button.button {
   text-align: center; }
 
 .photos-03__img {
-  max-width: 100%; }
+  max-width: 100%;
+  max-width:1000px; }
 
 .photos-04 {
   padding: 70px 0 70px; }
